@@ -1,0 +1,9 @@
+Revenue teams at enterprise companies face a common problem: they're making decisions about tomorrow using data from last week. By the time a churn risk surfaces in a quarterly review, the window to intervene has already closed.
+
+Axion is an AI-powered revenue intelligence platform that leverages machine learning to help customer success and sales teams identify at-risk accounts, forecast pipeline with industry-leading accuracy, and surface expansion opportunities — all in a single, intuitive interface. Our platform integrates seamlessly with your existing CRM, MAP, and data warehouse, so there's no rip-and-replace.
+
+The ROI is clear: customers who deploy Axion report a 23% improvement in retention rates within the first 90 days. Teams that previously spent 3 hours per week in manual pipeline reviews now complete the same review in under 30 minutes. Our AI does the heavy lifting so your team can focus on what matters: building relationships and closing deals.
+
+Axion is trusted by revenue teams at over 400 companies globally, including enterprises in financial services, healthcare, and technology. Whether you're a 50-person scale-up trying to build a repeatable revenue motion or a 5,000-person enterprise looking to standardize forecasting across regions, Axion adapts to your workflow.
+
+Ready to see it in action? Schedule a demo today and we'll show you exactly what Axion can do for your specific use case.

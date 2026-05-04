@@ -1,0 +1,32 @@
+{# ═══════════════════════════════════════════════════════
+   Audit User Message Template
+   Variables: channel, channel_constraints (json), audience, audience_tone,
+              rules_text, content
+═══════════════════════════════════════════════════════ #}
+Audit the following content against the brand rules provided.
+
+TARGET CHANNEL: {{ channel }}
+CHANNEL CONSTRAINTS: {{ channel_constraints }}
+
+TARGET AUDIENCE: {{ audience }}
+AUDIENCE TONE GUIDANCE: {{ audience_tone }}
+
+BRAND RULES:
+{{ rules_text }}
+
+CONTENT TO AUDIT:
+{{ content }}
+
+Return a JSON object with:
+- "violations": array of violation objects, each with:
+  - "original_text": exact text span from the content
+  - "issue_title": short description of the issue
+  - "rule_section": section reference (e.g. "§3 — Prohibited Words")
+  - "rule_id": rule identifier (e.g. "RULE-3.1")
+  - "explanation": why this violates the rule
+  - "severity": "critical" | "high" | "medium" | "low"
+  - "suggested_fix": specific replacement text or action
+  - "blocks_publishing": true/false
+- "summary": one-paragraph summary of the audit findings
+
+Be thorough. Check every sentence. Only cite rules from the provided list.

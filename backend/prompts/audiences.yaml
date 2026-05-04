@@ -1,0 +1,40 @@
+# ═══════════════════════════════════════════════════════════
+#  Audience Definitions — edit here to add/modify audiences
+#  No code changes needed. The backend loads this at startup.
+# ═══════════════════════════════════════════════════════════
+
+executive:
+  label: "Executive (VP+)"
+  tone_guidance: >
+    Lead with business outcome, not product feature.
+    Minimize technical detail. Frame AI as judgment support, not automation.
+
+practitioner:
+  label: "Practitioner"
+  tone_guidance: >
+    Lead with workflow improvement. Can include feature specifics.
+    Frame AI as time-saving.
+
+technical:
+  label: "Technical"
+  tone_guidance: >
+    Can use technical terminology. Lead with architecture and integration.
+    Frame AI as data processing layer.
+
+sales:
+  label: "Sales"
+  tone_guidance: >
+    Lead with competitive advantage and pipeline impact.
+    Use revenue-focused language. Frame AI as a deal acceleration tool.
+
+customer_success:
+  label: "Customer Success"
+  tone_guidance: >
+    Lead with retention and customer outcomes.
+    Emphasize time-to-value and adoption ease. Frame AI as a proactive support tool.
+
+investor:
+  label: "Investor"
+  tone_guidance: >
+    Lead with market opportunity and growth metrics.
+    Use financial language. Frame AI as a scalable competitive moat.

@@ -1,0 +1,43 @@
+# ═══════════════════════════════════════════════════════════
+#  Channel Definitions — edit here to add/modify channels
+#  No code changes needed. The backend loads this at startup.
+# ═══════════════════════════════════════════════════════════
+
+linkedin:
+  label: "LinkedIn"
+  max_words: 150
+  paragraph_style: "1-2 sentences per paragraph, white space between"
+  cta_note: "Use only CTAs approved in the brand guidelines."
+
+email:
+  label: "Email"
+  max_words: 300
+  paragraph_style: "2-3 sentences per paragraph"
+  cta_note: "Use only CTAs approved in the brand guidelines."
+
+landing_page:
+  label: "Landing Page"
+  max_words: 200
+  paragraph_style: "2-3 sentences per paragraph"
+  cta_note: "Use only CTAs approved in the brand guidelines."
+
+press_release:
+  label: "Press Release"
+  max_words: 600
+  min_words: 400
+  paragraph_style: "Standard AP style"
+  cta_note: "No CTA in press releases."
+
+event_abstract:
+  label: "Event Abstract"
+  max_words: 100
+  min_words: 75
+  paragraph_style: "Single paragraph"
+  cta_note: "No CTA in event abstracts."
+
+blog_post:
+  label: "Blog Post"
+  max_words: 800
+  min_words: 300
+  paragraph_style: "2-4 sentences per paragraph, use subheadings"
+  cta_note: "Use only CTAs approved in the brand guidelines."

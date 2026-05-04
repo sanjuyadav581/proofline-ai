@@ -1,0 +1,32 @@
+{# ═══════════════════════════════════════════════════════
+   Adaptation User Message Template
+   Variables: channel, channel_constraints (json), audience, audience_tone,
+              rules_text, content
+═══════════════════════════════════════════════════════ #}
+Adapt the following source content for the specified channel and audience.
+
+TARGET CHANNEL: {{ channel }}
+CHANNEL CONSTRAINTS: {{ channel_constraints }}
+
+TARGET AUDIENCE: {{ audience }}
+AUDIENCE TONE GUIDANCE: {{ audience_tone }}
+
+BRAND RULES TO RESPECT:
+{{ rules_text }}
+
+SOURCE CONTENT:
+{{ content }}
+
+Return a JSON object with:
+- "adapted_content": the fully adapted content string (plain text, use line breaks for paragraphs)
+- "word_count": integer word count of the adapted content
+- "change_log": array of change objects, each with:
+  - "original_text": text from the source that was changed
+  - "changed_text": what it was changed to
+  - "change_type": one of "terminology", "tone", "structure", "cta", "claim", "formatting"
+  - "rule_reference": the rule_id or section that drove this change
+  - "rationale": brief explanation of why
+
+Include EVERY meaningful change in the change_log. Do not omit changes.
+The adapted content MUST be within the word count limit.
+Use ONLY approved CTA phrasing for this channel. If no CTA is allowed, omit any CTA.

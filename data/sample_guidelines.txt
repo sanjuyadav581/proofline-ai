@@ -1,0 +1,46 @@
+1 — Voice and Tone
+Axion's brand voice is confident but not arrogant, direct but not blunt, and human but not casual. We do not talk like a startup trying to sound edgy. We do not talk like a legacy enterprise hiding behind corporate jargon. We talk like a senior colleague explaining something important to a peer.
+
+- ✓ "Revenue teams catch at-risk accounts before churn happens."
+- ✗ "Our revolutionary platform disrupts the status quo."
+- ✗ "We empower stakeholders to leverage synergistic outcomes."
+
+2 — Approved Product Terminology
+- Product name: Axion (capitalize, never "axion" or "AXION")
+- Product descriptor: AI-assisted (not "AI-powered," not "machine learning-powered")
+- Core capability: revenue intelligence (not "revenue operations platform," not "RevOps tool")
+- Integration language: "connects to" or "works with" (not "integrates seamlessly with" — "seamlessly" is marketing filler)
+
+3 — Prohibited Words and Phrases
+The following are banned in all external-facing content without exception:
+- leverage (as a verb) → use "use," "apply," or "harness"
+- synergy / synergistic → use "collaboration" or "combined effect"
+- revolutionary / disrupts / game-changing → avoid superlatives unless citing independent research
+- industry-leading / best-in-class / #1 → require a cited, current third-party source
+- seamlessly → use "simply" or remove the qualifier
+- robust → use "reliable," "durable," or be specific
+- solution (as a standalone noun) → always qualify: "software solution," "planning solution"
+- empower → use "help," "enable," or "allow"
+
+4 — Claim Standards
+- Quantitative claims (e.g., "23% improvement") require a source citation in long-form content. Short-form (social, email subject lines) may omit citation if claim appears with citation elsewhere in the same campaign.
+- Superlative claims (industry-leading, best-in-class) require an independent, cited source published within 18 months.
+- Customer quotes must be approved by the customer in writing before use.
+
+5 — Channel-Specific Length and Format
+- LinkedIn post: Max 150 words, 1-2 sentences per paragraph with white space between, CTA: "See it in action" or "Book a demo"
+- Marketing email (body): Max 300 words, 2-3 sentences per paragraph, CTA: "Schedule a demo" or "Get started"
+- Landing page headline: Max 10 words, single sentence, no CTA
+- Landing page body: Max 200 words, 2-3 sentences per paragraph, CTA: "Book a demo today"
+- Press release: 400-600 words, standard AP style, no CTA in body
+- Event abstract: 75-100 words, single paragraph, no CTA
+
+6 — Audience Tone Calibration
+- Executive audience (VP+): lead with business outcome, not product feature; minimize technical detail; frame AI as judgment support, not automation
+- Practitioner audience (Manager, Director): lead with workflow improvement; can include feature specifics; frame AI as time-saving
+- Technical audience (Ops, Engineering): can use technical terminology; lead with architecture and integration; frame AI as data processing layer
+
+7 — CTA Standards
+- Approved CTAs for demand generation: "Book a demo," "See it in action," "Schedule a call"
+- Prohibited CTAs: "Click here," "Learn more" (too vague), "Get your free trial" (Axion does not offer free trials — legal risk)
+- Every piece of content with a CTA must link to a tracked URL

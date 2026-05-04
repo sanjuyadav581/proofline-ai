@@ -1,0 +1,29 @@
+{# ═══════════════════════════════════════════════════════
+   Brand DNA Scoring User Message Template
+   Variables: channel, channel_constraints (json), audience, audience_tone,
+              rules_text, content, violations_summary
+═══════════════════════════════════════════════════════ #}
+Score the following content on 7 brand alignment dimensions.
+
+CONTENT:
+{{ content }}
+
+TARGET CHANNEL: {{ channel }}
+CHANNEL CONSTRAINTS: {{ channel_constraints }}
+
+TARGET AUDIENCE: {{ audience }}
+AUDIENCE TONE: {{ audience_tone }}
+
+BRAND RULES:
+{{ rules_text }}
+
+AUDIT RESULTS: {{ violations_summary }}
+
+Return a JSON object with these 7 scores (each 0-100):
+- "brand_fit_score": How well does the content match the brand voice?
+- "terminology_compliance": Are approved terms used? Are prohibited terms absent?
+- "claim_risk_score": 100 = all claims safe and cited, 0 = high legal risk
+- "cta_compliance": Does the CTA match approved formats?
+- "channel_fit": Does content match channel length, format, structure?
+- "audience_fit": Is the tone appropriate for the target audience?
+- "tone_alignment": Does the voice match brand guidelines?
